@@ -1,0 +1,140 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    font-size: 300%;
+    font-weight: bolder;
+    margin-top: 4%;
+    font-style: italic;
+    margin-left: 35%;
+    margin-bottom: 4%;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+.hero {
+    position: relative;
+    height: 100%;
+}
+
+nav {
+    width:50%;
+    position:fixed;
+    top: 2%;
+    right:4%;
+    z-index: 1; 
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 8%; 
+}
+nav ul li a {
+    text-decoration: none; 
+    color: rgb(11, 248, 129); 
+}
+
+.hero_con {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    width: 100%;
+    z-index: 1; 
+}
+.hero_con p1{
+    font-size: 250%;
+    font-weight: bolder;
+}
+
+.carousel {
+    position: relative;
+    z-index: 0; 
+}
+.container{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.gallery-img {
+    width: 100%;
+    height: auto;
+    border-radius: 4%;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .gallery-img:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+#A, #B, #E, #F{
+    height: 25vh;
+    width:40vh;
+  }
+  #E, #F{
+    margin-left: 14vh;
+  }
+.slid_con{
+    width:50%;
+}
+h2{
+    margin-left: 35%;
+    font-size: 250%;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5%;
+    font-style: italic;
+    text-decoration: underline;
+}
+h3{
+    font-size: 130%;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5%;
+    text-decoration: underline;    
+}
+p2{
+    margin-left: 25%;
+    font-size: 200%;
+    font-style: oblique;
+    margin-bottom: 20vh;
+}
+p3{
+    margin-left: 35%;
+    font-size: 150%;
+    font-style: oblique;
+}
+#Trd img {
+    height: 30vh; 
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.carousel-item.active img {
+    transform: scale(1.05); 
+}
+#Trd{
+    margin-left: 10vh;
+    margin-right: 10vh;
+}
+.row img{
+    border-radius: 5%;
+}
+.con{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(14, 247, 41);   
+    margin-top: 30vh; 
+}
+.contact{
+    color:aliceblue;
+}
